@@ -1,0 +1,29 @@
+.d-block{
+    margin-top: 3%;
+    height: 300px;
+}
+.servies-head{
+    height: 40px;
+    margin: auto;
+    width: 150px;
+    background-color: #06a7fd;
+    text-align: center;
+    font-family: 'Bahnschrift Condensed';
+    color: white;   
+    transition-property: all;
+    transition-duration: 200ms;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.service-cards{
+    display: flex;
+    justify-content: center;
+}
+.service-card{
+    margin: 10px;
+}
+.card-img-top{
+    height: 200px;
+    padding: 3%;
+}

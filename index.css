@@ -1,0 +1,80 @@
+.slider-img{
+    height: 600px;
+    margin-top: 20px;
+}
+.food-slider{
+    height: 200px;
+    width: 200px;
+}
+.our-food{
+    height: 40px;
+    margin: auto;
+    width: 150px;
+    background-color: #06a7fd;
+    text-align: center;
+    font-family: 'Bahnschrift Condensed';
+    color: white;   
+    transition-property: all;
+    transition-duration: 200ms;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.card{
+    height: 300px;
+    margin: 5% soild gray;
+    margin: 7%;
+    margin-top: 2%;
+    border-radius: 200px;
+    margin-bottom: 2px;
+}
+.card:hover{
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.card-imgg{
+    height: 250px;
+    width: 250px;
+    border-radius: 1%;  
+    margin: 25px;
+}
+.card-details{
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: 'Bahnschrift Condensed';
+}
+.card-head{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.location-head{
+    height: 40px;
+    margin: auto;
+    width: 150px;
+    background-color: #06a7fd;
+    text-align: center;
+    font-family: 'Bahnschrift Condensed';
+    color: white;   
+    transition-property: all;
+    transition-duration: 200ms;
+    font-size: 30px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.location-cards{
+    display: flex;
+}
+.m6{
+    padding: 2%;
+    border-radius: 2%;
+    border: 1px solid lightgrey;
+    margin-left: 5%;
+}
+.location-img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+.checkout-link{
+    text-decoration: none;
+}

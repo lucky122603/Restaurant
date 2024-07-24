@@ -1,0 +1,243 @@
+.form-container{
+    width: 65rem;
+    background-color: #06a7fd;
+    margin: auto;
+    margin-top: 2.5rem;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.form-heading{
+    padding: 5%;
+    font-size: 3rem;
+    font-family: 'Yu Gothic UI Semibold'; 
+    color: white;
+}
+.form-subheading{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.form{
+    color: white;
+    padding: 10%;
+    padding-top: 2%;
+    font-family: 'Yu Gothic UI Semibold';   
+}
+.label{
+    font-size: 27px;
+}
+.fullname{
+    margin-bottom: 30px;
+}
+.fullname-input name-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+}
+.name-inputs {
+    margin-left: 9rem;
+}
+#lastname{
+    margin-left: 20px;
+}
+
+input{
+    height: 35px;
+    width: 15rem;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 2%;
+}
+.name-labels {
+    margin-left: 17.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22.8rem;
+}
+.contact{
+    margin-bottom: 30px;
+}
+.contact-input contact-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+}
+.contact-inputs {
+    margin-left: 10.7rem;
+}
+#email{
+    margin-left: 20px;
+}
+.contact-labels {
+    margin-left: 17.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20.5rem;
+}
+.branch{
+    margin-bottom: 40px;
+}
+
+select{
+    height: 46px;
+    width: 15rem;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 2%;
+}
+.branch-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 5px;
+}
+
+#branch{
+    width: 34.3rem;
+    color: gray;
+}
+.types{
+    margin-bottom: 40px;
+}
+.type-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 5px;
+}
+
+#types{
+    width: 34.3rem;
+    color: gray;
+}
+
+.guests{
+    margin-bottom: 30px;
+}
+.guests-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 5px;
+}
+#guests{
+    width: 34.3rem;
+    color: gray;
+}
+
+.date-input{
+    display: flex;
+    margin-left: 0%;
+}
+.date-inputs{
+    width: 16rem;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 10px;
+    margin-left: 13rem;
+}
+#dates{
+    background-color: white;
+    width: 16rem;
+}
+.checkbox{
+    margin-top: 10px;
+}
+.radio{
+    height: 20px;
+    width: 20px;
+    border: none;
+    outline: none;
+    margin-left: 2rem;
+}
+.dates{
+    margin-bottom: 45px;  
+}
+
+.contact{
+    margin-bottom: 30px;
+}
+.time{
+    margin-bottom: 30px;
+}
+.time-input time-inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+}
+.time-inputs {
+    margin-left: 13rem;
+}
+#toTime{
+    margin-left: 20px;
+}
+.time-labels {
+    margin-left: 17.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 19.2rem;
+}
+
+.request-input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 0%;
+}
+#request{
+    width: 34.3rem;
+    color: black;
+}
+.request{
+    margin-bottom: 40px;
+}
+
+textarea{
+    height: 10rem;
+    width: 15rem;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 10px;
+    font-size: 15px;
+    padding-left: 2%;
+}
+.submit{
+    margin-top: 30px;
+    margin-left: 0%;
+    text-align: center;
+}
+.submit-button{
+    height: 60px;
+    width:30%;
+    border: none;
+    outline: none;
+    padding: 0.4rem;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 2%;
+}
+.submit-button:hover{
+    box-shadow: 1px 1px 1px 0px gray;
+    background-color: lightgray;
+}
+.astrisk{
+    color: rgb(179, 5, 5);
+    font-size: 20px;
+}

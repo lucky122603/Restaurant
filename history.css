@@ -1,0 +1,32 @@
+.history-box{
+    margin: 3%;
+    border: 1px solid lightgray;
+    border-radius: 2%;
+    padding: 2%;
+    font-family: 'Bahnschrift Condensed';
+    margin-top: 0%;
+}
+.history-head{
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 50px;
+    font-family: 'Bahnschrift Condensed';
+    width: max-content;
+    padding: 0.5%;
+    padding-bottom: 0%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.history-head:hover{
+    box-shadow: -1px -1px 1px 1px gray;
+}
+.building{
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.heading{
+    font-size: 20px;
+}

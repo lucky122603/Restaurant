@@ -1,0 +1,84 @@
+.aboutus-head{
+    margin-top: 3%;
+    margin-left: 10%;
+    font-size: 50px;
+    font-family: 'Bahnschrift Condensed';
+    width: max-content;
+    padding: 0.5%;
+    padding-bottom: 0%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+.aboutus-head:hover{
+    box-shadow: -1px -1px 1px 1px gray;
+}
+.aboutus-box-owner{
+    margin: 3%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 2%;
+    font-family: 'Bahnschrift Condensed';
+    margin-top: 0%;
+}
+.owner-img{
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin-right: 2%;
+}
+.about-owner-head{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.about-owner-data{
+    font-size: 17px;
+}
+
+.chef-cards{
+    display: flex;
+    justify-content: center;
+}
+.m6{
+    padding: 2%;
+    border-radius: 2%;
+    border: 1px solid lightgrey;
+    margin-left: 5%;
+}
+.chef-img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+.aboutus-box-chef{
+    margin: 3%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 0%;
+    
+}
+
+.about-chef-head{
+    font-family: 'Bahnschrift Condensed';
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.aboutus-box-health{
+    margin: 3%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 2%;
+    margin-top: 0%;
+    font-family: 'Bahnschrift Condensed';
+}
+.about-health-head{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.about-health-data{
+    font-size: 17px;
+}

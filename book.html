@@ -1,0 +1,228 @@
+<!-- php included -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonders</title>
+    <link rel="icon" type="image/x-icon" href="Images/Icon.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="book2.css">
+    <link href="book1.css" rel="stylesheet">
+    
+</head>
+<body>
+    <nav>
+        <div class="navv">
+            <div class="nav1-head">
+                <a href="history.html" class="nav1-link">History</a> |
+                <a href="book.html" class="nav1-link">Book a Table</a>
+            </div>
+            <div class="nav2-head">
+                <a href="index.html" class="nav2-link">Home</a>
+                <a href="menu.html" class="nav2-link">Menu</a>
+                <a href="services.html" class="nav2-link">Services</a>
+                <img src="Images/Icon.png" alt="Wonders">
+                <a href="gallery.html" class="nav2-link">Gallery</a>
+                <a href="book.html" class="nav2-link">Reservation</a>
+                <a href="aboutus.html" class="nav2-link">About Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content">
+
+        <div class="form-container">
+            <div class="form-heading">
+                <div class="form-mainheading">
+                    <b>Reserve a Table</b>
+                </div>
+                <div class="form-subheading">
+                    Please fill the form below accurately to enable us serve you better!.. welcome!
+                </div>
+                <hr>
+            </div>
+            <div class="form">
+                <form action="connect.php" method="post">
+                    <div class="form-content">
+                        <div class="fullname">
+                            <div class="fullname-input">
+                                <label for="firstname" class="label">Full Name<span class="astrisk">*</span></label>
+                                <span class="name-inputs">
+                                    <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                                </span>
+                            </div>
+                            <div class="name-labels">
+                                <label for="firstname" class="firstname-label">First Name</label>
+                                <label for="lastname" class="lastname-label">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="contact">
+                            <div class="contact-input">
+                                <label for="phone" class="label">Contact<span class="astrisk">*</span></label>
+                                <span class="contact-inputs">
+                                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Phone Number" required>
+                                    <input type="email" id="email" name="email" placeholder="Email" required>
+                                </span>
+                            </div>
+                            <div class="contact-labels">
+                                <label for="phone" class="phone-label">Phone Number</label>
+                                <label for="email" class="email-label">Email</label>
+                            </div>
+                        </div>
+                        <div class="branch">
+                            <div class="branch-input">
+                                <label for="branch" class="label">Branch<span class="astrisk">*</span></label>
+                                <span class="branch-inputs">
+                                    <select type="text" id="branch" name="branch" placeholder="Select the branch" required> 
+                                        <option value="Sayaji">Wonders Hub, Sayaji Hotel, Indore</option>
+                                        <option value="C21">The Wonders Hub, C21 Mall, Indore</option>
+                                        <option value="Pheonix">Wonders, Pheonix Citadel, Indore</option>
+                                        <option value="TIMall">The Wonders, Treasure Island Mall, Indore</option>
+                                    </select>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="types">
+                            <div class="type-input">
+                                <label for="types" class="label">Type of Reservation<span class="astrisk">*</span></label>
+                                <span class="type-inputs">
+                                    <select type="text" id="types" name="types" placeholder="Select the type of Reservation" required> 
+                                        <option value="Dinner">Dinner</option>
+                                        <option value="BP">Birthday Party</option>
+                                        <option value="Anniverary">Anniversary</option>
+                                        <option value="vip">VIP</option>
+                                    </select>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="guests">
+                            <div class="guests-input">
+                                <label for="guests" class="label">Number of Guests <span class="astrisk">*</span></label>
+                                <span class="guests-inputs">
+                                    <select type="number" id="guests" name="guests" placeholder="Number of guests" required> 
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                    </select>    
+                                </span>
+                            </div>
+                        </div>
+                        <div class="dates">
+                            <div class="date-input">
+                                <label for="dates" class="label">Date<span class="astrisk">*</span></label>
+                                <span class="date-inputs">
+                                    <input id="dates" type="date" name="dates" required>   
+                                </span>
+                                <div class="checkbox">
+                                    <input type="radio" id="flexi" class="radio" name="dateFlexibiliy" value="y" required>
+                                    <label for="flexi">Flexible</label>
+                                    <input type="radio" id="nonflexi" class="radio" name="dateFlexibiliy" value="n" required>
+                                    <label for="nonflexi">Non-Flexible</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="time">
+                            <div class="time-input">
+                                <label for="fromTime" class="label">Time<span class="astrisk">*</span></label>
+                                <span class="time-inputs">
+                                    <input type="time" id="fromTime" name="fromTime" placeholder="00:00" required>
+                                    <input type="time" id="toTime" name="toTime" placeholder="00:00" required>
+                                </span>
+                            </div>
+                            <div class="time-labels">
+                                <label for="fromTime" class="from-label">From</label>
+                                <label for="toTime" class="to-label">To</label>
+                            </div>
+                        </div>
+                        <div class="request">
+                            <div class="request-input">
+                                <label for="request" class="label request-label">Any special request</label>
+                                <span class="request-inputs">
+                                    <textarea name="request" id="request"></textarea>
+                                </span>
+                            </div>
+                        </div>    
+                        <hr>
+                        <div class="submit">
+                            <input type="submit" class="submit-button" name="submit" value='Book a table'>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="info">
+            <div class="col1">
+                <div class="title">Wonders</div>
+                <div class="quote">Experience Culinary Wonders <br/>Beyond Your Imagination!</div>
+                <div class="visit">
+                    <div class="visit-link">
+                        <a href="https://www.instagram.com/"target="_blank">
+                            <img src="Images/InstagramLogo.png" alt="Instagram Link" class="visit-img"/>
+                        </a>
+                    </div>
+                    <div class="visit-link">
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <img src="Images/FacebookLogo.webp" alt="Facebook Link" class="visit-img"/>
+                        </a>
+                    </div>
+                    <div class="visit-link">
+                        <a href="https://twitter.com/login?lang=en"target="_blank">
+                            <img src="Images/TwitterLogo.png" alt="Twitter Link" class="visit-img"/>
+                        </a>
+                    </div>
+                    <div class="visit-link">
+                        <a href="https://in.linkedin.com/"target="_blank">
+                            <img src="Images/LinkedinLogo.webp" alt="Linkedin link" class="visit-img"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="col2">
+                <img src="Images/Icon.png"  alt="Logo" class="footer-logo">
+            </div>
+
+            <div class="col3">
+                <div class="footer-contact">
+                    <div class="fcontact">
+                      Contact Us
+                    </div>
+              
+                    <div class="fcontact-details">
+                      Email: wondershub@gmail.com<br>
+                      Phone: (+91) 1234567890
+                      <br><br>
+                      114, Dreamland mall, <br> 
+                      Dreamland
+                    </div>         
+                </div>
+            </div>           
+        </div>
+        <div class="markq">
+            <marquee behavior="" direction="">This Resturant doesn't exist</marquee>
+        </div>
+    </div>
+</body>
+</html>

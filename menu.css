@@ -1,0 +1,49 @@
+.menu-box{
+    margin: 3%;
+    padding: 2%;
+    font-family: 'Bahnschrift Condensed';
+    margin-top: 5%;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.img1{
+    float: right;
+    height: 30rem;
+    width: 30rem;
+}
+.img2{
+    float: left;
+    height: 30rem;
+    width: 30rem;
+}
+.dish-topic{
+    height: 40px;
+    width: 38rem;
+    background-color: #06a7fd;
+    text-align: center;
+    font-family: 'Bahnschrift Condensed';
+    color: white;   
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.dish-topic:hover{
+    background-color: #0588cf;
+}
+.dish-container {
+    min-height: 25rem;
+}
+.dish-list{
+    margin-left: 3%;
+    padding-left: 2%;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: normal;
+}
+.space-between{
+    margin-left: 47%;
+}

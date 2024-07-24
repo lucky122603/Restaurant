@@ -1,0 +1,25 @@
+<?php
+    $firstname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $branch = $_POST['branch'];
+    $type = $_POST['type'];
+    $guests = $_POST['guests'];
+    $date = $_POST['date'];
+    $date-flexibiliy = $_POST['date-flexibiliy'];
+    $fromTime = $_POST['fromTime'];
+    $toTime = $_POST['toTime'];
+    $request = $_POST['request'];
+
+    //database connection
+    $conn = new mysqli('localhost','root','','test');
+    if($conn->connect-error){
+        die('Connection Failed');
+    }
+    else{
+        INSERT INTO form values('$firstname', '$lastname', '$phone', '$email', '$branch', '$type', '$guests', '$date', '$date-flexibiliy', '$fromTime', '$toTime', '$request');
+        
+    }
+?>
+
